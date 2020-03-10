@@ -1,5 +1,3 @@
-## Current development going on here :arrow_right: [Development Branch](https://github.com/tzapu/WiFiManager/tree/development)
-
 # WiFiManager
 
 WiFiManager with EspAsyncWebserver on ESP8266
