@@ -8,7 +8,7 @@ This is based on works from https://github.com/tzapu/WiFiManager (V0.15) and htt
 
 Observations while working on this code,
 
-1. WiFi.scanNetworks() call returns nothing when it is called within async web handler
+1. WiFi.scanNetworks() call returns nothing when it is called within async web handler. As a result, no SSIDs will show up.
 2. After deleting WiFiManager instance, our own web server fails in binding same web port occasionally. It seems that TCP port is not released clearely. 
 
 Work arounds included in this code,
